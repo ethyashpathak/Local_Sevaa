@@ -1,0 +1,178 @@
+.navbar_outer {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar_container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 20px;
+}
+
+.logo a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #3b2a82; /* Deep purple/blue from the mock */
+}
+
+.search_bar_container {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  background-color: #f0f2f5;
+  border-radius: 20px;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.search_bar input {
+  border: none;
+  background: transparent;
+  outline: none;
+  margin-left: 8px;
+  font-size: 14px;
+  width: 100%;
+  color: #333;
+}
+
+.search_bar svg {
+  color: #666;
+  font-size: 16px;
+}
+
+.menu_link {
+  flex: 0.5;
+}
+
+.menu_link ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu_link ul li a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+
+.menu_link ul li a.active {
+  color: #3b2a82;
+  border-bottom: 2px solid #3b2a82;
+}
+
+.menu_link ul li a:hover {
+  color: #3b2a82;
+}
+
+.profile_section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.profile_img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile_name {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.mobile_menu_main {
+  display: none;
+}
+
+.mobile_menu_toggle {
+  color: #333;
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+  .search_bar_container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile_menu_toggle {
+    display: block;
+  }
+
+  .mobile_menu_toggle svg {
+    font-size: 24px;
+  }
+
+  .mobile_menu_main.show {
+    display: block;
+    padding: 10px 0;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+  }
+
+  .menu_link,
+  .profile_section {
+    display: none;
+  }
+
+  .mobile_menu_main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile_menu_main ul li a {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-bottom: 1px solid #eee;
+  }
+}

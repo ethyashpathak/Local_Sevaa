@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}

@@ -1,0 +1,33 @@
+.workCompleted_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.workcomplete_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workcompleted_image,
+.workcompleted_image img {
+  height: 350px;
+  width: 400px;
+}
+
+.workcompleted_button button {
+  background: #f79d2b;
+  border-radius: 12px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  padding: 10px 50px;
+  border: none;
+  outline: none;
+}
