@@ -31,7 +31,7 @@ Local Seva follows a client-server architecture. The client-side is built using 
 <br>
 <h1>🚀 Getting Started</h1>
 To get started, download the zip file of the repository. Or use <br>
-<code>git clone https://github.com/sakshgupta/Local_Seva.git</code><br>
+<code>git clone https://github.com/ethyashpathak/Local_Sevaa.git</code><br>
 Then navigate to the project's root directory. The project consists of three folders: <code>client</code>, and <code>server</code>.
 <br>
 Before starting the servers, make sure to install the dependencies by running the command: <code>npm install</code> in all two folders.
