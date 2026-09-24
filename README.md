@@ -75,26 +75,12 @@ Local Seva provides a user-friendly interface that allows you to easily navigate
 Our team consists of:
 
 <ul>
-  <li><strong>Saksham Gupta:</strong>
-  Connect with Saksham on 
-  <a href="https://www.linkedin.com/in/sakshguptavit/">
-  LinkedIn
-  </a> and 
-  <a href="https://github.com/sakshgupta">
-  GitHub
-  </a>, or visit his 
-  <a href="https://sakshgupta.vercel.app/">
-  personal website
-  </a>.
-  </li>
-  <li><strong>Amaan Khan:</strong>
-  Connect with Amaan on 
-  <a href="https://www.linkedin.com/in/amaankhanak/">
-  LinkedIn
-  </a> and 
-  <a href="https://github.com/amaankhanak">
-  GitHub
-  </li>
+  <li><strong>Shaswat Pathak:</strong> Connect on <a href="https://github.com/ethyashpathak">GitHub</a></li>
+  <li><strong>Shounak Roy:</strong> Connect on <a href="https://github.com/S26R">GitHub</a></li>
+  <li><strong>Tanwistha Guha:</strong> Connect on <a href="https://github.com/tanwistha2010">GitHub</a></li>
+  <li><strong>Aditya Kumar Shaw:</strong> Connect on <a href="https://github.com/Aditya82005">GitHub</a></li>
+  <li><strong>Ankan Das:</strong> Connect on <a href="https://github.com/mossheadzoro">GitHub</a></li>
+  <li><strong>Shrantika Marik:</strong> Connect on <a href="https://github.com/Shrantika">GitHub</a></li>
 </ul>
 <br>
 
